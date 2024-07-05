@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles.scss';
+import { Routing } from '@/pages';
 
 export function App() {
-  const [count, setCount] = useState(0);
   return (
-    <div />
+    <Routing />
   );
 }
