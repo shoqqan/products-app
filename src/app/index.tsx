@@ -1,9 +1,11 @@
 import React from 'react';
 import './styles.scss';
 import { Routing } from '@/pages';
+import { withProviders } from '@/app/providers';
 
-export function App() {
+function App() {
   return (
     <Routing />
   );
 }
+export default withProviders(App);

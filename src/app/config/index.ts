@@ -1,0 +1,1 @@
+export { persistConfig } from './config';
